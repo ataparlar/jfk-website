@@ -1,0 +1,130 @@
+body{
+    background-color: #F8F9FA;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.bg-container{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 55vh;
+    width: 100%;
+}
+.navbar{
+    border-bottom: 5px solid #9D2125;
+}
+nav ul li:hover{
+    background-color: #9D2125;
+}
+.logo-nav{
+    display: none;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100%;
+}
+.social-logo img{
+    width: 4%;
+    margin: 25px; 
+    filter: grayscale(100%);
+    transition: .2s ease-in-out;
+}
+.social-logo-footer img{
+    width: 15%;
+    margin: 5px; 
+    /*filter: grayscale(100%);*/
+    transition: .3s ease-in-out;
+}
+.social-logo img:hover{
+    filter: grayscale(0);
+}
+
+.font-thin {
+    font-weight: 300;
+}
+.font-medium{
+    font-weight: 450;
+}
+.font-thick {
+    font-weight: 600;
+}
+.text-big {
+    font-size: 55px;
+}
+.text-medium {
+    font-size: 36px;
+}
+.text-small{
+    font-size: 20pt;
+}
+.font-default-color {
+    color: #666666 !important;
+}
+
+.font-primary-color {
+    color: #444444 !important;
+}
+
+.text-orange{
+    color: #ECAB2B;
+}
+.bg-orange{
+    background-color: #ECAB2B;
+}
+.danisman{
+    border-right: 1px solid gray;
+}
+a{
+    color: black;
+}
+nav a:hover{
+    color: #9D2125
+}
+
+a:hover{
+    color: gray;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bg-container{
+        height: 65vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-container{
+        background-size: cover;
+    }
+    .logo-nav {
+        display: block;
+    }
+    .text-big {
+        font-size: 48px;
+    }
+    .text-medium{
+        font-size: 24pt;
+    }
+    .bg-container{
+        height: 55vh;
+    }
+    .danisman{
+        border-right: none;
+        border-bottom: 1px solid gray;
+        padding: 30px;
+    }
+}
