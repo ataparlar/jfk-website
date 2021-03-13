@@ -17,11 +17,21 @@ body{
     min-height: 55vh;
     width: 100%;
 }
+.bg-container-geosum{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 65vh;
+    width: 100%;
+}
 .navbar{
     border-bottom: 5px solid #9D2125;
 }
 nav ul li:hover{
     background-color: #9D2125;
+}
+nav ul li a:hover{
+    color: whitesmoke !important;
 }
 .logo-nav{
     display: none;
